@@ -25,6 +25,17 @@ p {
   text-align: center;
 }
 
+/* #amount_two::-webkit-inner-spin-button {   // Disable spinner
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  pointer-events:none;
+} */
+
+#amount_two {
+  color: #000;
+}
+
 .btn {
   color: #fff;
   background: var(--primary-color);
